@@ -1,0 +1,31 @@
+<html lang='en'>
+    <head>
+        <meta charset='utf-8'>
+        <title>Generate Lil Pump Lyric</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel='stylesheet' href='../static/style.css'>
+        <link href="https://fonts.googleapis.com/css?family=Paytone+One" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
+        <script src='../static/client.js'></script>
+    </head>
+    <body>
+        <div>
+            <div class='center'>
+                <div class='title'>Generate Lil Pump Rap Lyrics!<br />**warning explicit content**</div>
+                <div class='content'>
+                    <div class="row">
+                        <span class="input">
+                            <input id="text-input" onchange='showText(this)' type="text" placeholder="Type the first few words of his tweet" maxlength="23">
+                            <span></span>   
+                        </span>
+                    </div>
+                    <div class='analyze'>
+                        <button id='analyze-button' class='analyze-button' type='button' onclick='analyze()'>Generate Tweet</button>
+                    </div>
+                    <div class='result-label'>
+                        <label id='result-label'></label>
+                    </div>
+                </div>
+        </div>
+    </body>
+</html>
